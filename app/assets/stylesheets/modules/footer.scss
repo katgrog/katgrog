@@ -1,0 +1,25 @@
+
+
+
+// --------------------------------------- *\
+  // Footer styling
+// --------------------------------------- */
+
+.footer {
+  background-color: $secondary-colour;
+
+  a {
+    font-family: $title-font;
+    display: block;
+    padding: 40px;
+    font-size: 20px;
+    color: white;
+  }
+
+  @include min-width(845px) {
+    a {
+      display: inline-block;
+      padding: 70px 100px;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<%= render 'shared/header' %>
+
+<section class="section">
+  <div class="container">
+    <div class="row clearfix">
+      <div class="text-center">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+          <h3 class="u-margin-b-100 text-secondary">Thanks for coming to have a
+            <div class="u-relative u-inline-block">
+               <span class="text-primary look-link js-look-link">look
+                <%= image_tag 'face.svg', class: 'image-face--look' %>
+              </span>
+            </div> :
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row clearfix">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="image-wrapper u-relative">
+          <div class="image-circle"></div>
+
+          <div class="square square-profile u-relative">
+            <%= image_tag 'triangle-pink.svg', class: 'absolute-shapes profile-absolute-shape--1' %>
+            <%= image_tag 'triangle.svg', class: 'absolute-shapes profile-absolute-shape--2' %>
+            <%= image_tag 'triangle.svg', class: 'absolute-shapes profile-absolute-shape--3' %>
+            <%= image_tag 'triangle-pink.svg', class: 'absolute-shapes profile-absolute-shape--4' %>
+            <%= image_tag 'triangle-pink.svg', class: 'absolute-shapes profile-absolute-shape--5' %>
+            <%= image_tag 'triangle.svg', class: 'absolute-shapes profile-absolute-shape--6' %>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="text-box text-center u-margin-b-100 u-relative text-about">
+          <p>I'm currently building websites at London based design studio, <a href="http://www.makingpretty.co.uk" target="_blank" class="mp-link">makingpretty</a>.</p>
+
+          <p class="u-margin-b-100">I'm a big fan of<br><span class="text-secondary text-highlight">code</span> + <span class="text-primary text-highlight">design</span>.</p>
+
+          <small class="text-tertiary bieber-text js-bieber-text">(I also like Justin Bieber's music, sorry?).</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alternative u-relative">
+  <div class="container">
+    <div class="row clearfix">
+      <div class="text-center">
+        <h3 class="text-secondary u-margin-b-100 u-padding-x-100">You scrolled all the way down here...</h3>
+
+        <h2 class="u-margin-b-100 text-uppercase display-text"><span class="text-primary text-underline">H</span><span class="text-secondary text-underline">o</span><span class="text-tertiary text-underline">o</span><span class="text-primary text-underline">r</span><span class="text-secondary text-underline">a</span><span class="text-tertiary text-underline">y</span><span class="text-primary text-underline">!</span></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="text-center">
+        <p class="text-tertiary party-mode-link js-party-mode u-padding-y-50">Click here for party mode!</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="text-center">
+        <p class="text-tertiary party-mode-off-link js-party-mode-off">Eugh, turn that off</p>
+      </div>
+    </div>
+
+    <div class="u-margin-t-100">
+      <div class="row clearfix">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="u-margin-b-100">
+            <div class="square square-1"></div>
+            <div class="square square-1--absolute">
+              <%= image_tag 'face.svg', class: 'image-face' %>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="u-margin-b-100">
+            <div class="square square-2"></div>
+            <div class="square square-2--absolute">
+              <%= image_tag 'face.svg', class: 'image-face' %>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="square square-3"></div>
+          <div class="square square-3--absolute">
+            <%= image_tag 'face.svg', class: 'image-face' %>
+          </div>
+        </div>
+      </div>
+
+      <%= image_tag 'triangle.svg', class: 'absolute-shapes circle-absolute-1' %>
+      <%= image_tag 'triangle.svg', class: 'absolute-shapes circle-absolute-2'%>
+      <%= image_tag 'triangle.svg', class: 'absolute-shapes circle-absolute-3'%>
+      <%= image_tag 'triangle-pink.svg', class: 'absolute-shapes triangle-absolute-1' %>
+      <%= image_tag 'triangle.svg', class: 'absolute-shapes triangle-absolute-2' %>
+      <%= image_tag 'triangle-pink.svg', class: 'absolute-shapes triangle-absolute-3' %>
+      <%= image_tag 'triangle-pink.svg', class: 'absolute-shapes triangle-absolute-4' %>
+      <%= image_tag 'triangle.svg', class: 'absolute-shapes triangle-absolute-5' %>
+      <%= image_tag 'triangle-pink.svg', class: 'absolute-shapes triangle-absolute-6' %>
+    </div>
+  </div>
+</section>
+
+<%= render 'shared/footer' %>
+
+</html>

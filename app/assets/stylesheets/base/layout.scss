@@ -1,0 +1,92 @@
+
+
+
+// --------------------------------------- *\
+  // Base Layout and grid
+// --------------------------------------- */
+
+body {
+  background: white;
+  font-family: $primary-font;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+h1, h2, h3 {
+  font-family: $title-font;
+}
+
+h2, h3, p {
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 0;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  color: $tertiary-colour;
+  font-size: 24px;
+}
+
+.u-relative {
+  position: relative;
+}
+
+.u-inline-block {
+  display: inline-block;
+}
+
+// Padding
+
+.u-padding-b-100 {
+  padding-bottom: 50px;
+}
+
+.u-padding-y-50 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.u-padding-y-200 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.u-padding-x-100 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+// Margin
+
+.u-margin-y-100 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.u-margin-t-50 {
+  margin-top: 25px;
+}
+
+.u-margin-t-100 {
+  margin-top: 50px;
+}
+
+.u-margin-b-100 {
+  margin-bottom: 50px;
+}

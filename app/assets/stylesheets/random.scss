@@ -1,0 +1,302 @@
+
+
+
+/* --------------------------------------- *\
+  #Random Styling
+\* --------------------------------------- */
+
+.image-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: image-url('profile.jpg');
+  background-size: cover;
+
+  margin: 0 auto;
+}
+
+.text-box {
+  padding: 70px 0 30px 0;
+
+  @include min-width($medium-break) {
+    padding: 70px;
+  }
+}
+
+.section--alternative {
+  background-color: #FBF9F2;
+  padding: 50px 0 200px 0;
+}
+
+.square {
+  width: 80%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.square-1 {
+  border: 4px solid $tertiary-colour;
+}
+
+.square-1--absolute {
+  background-color: $primary-colour;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &.is-active {
+    transform: translateX(0);
+    animation: party 0.8s ease-in-out alternate infinite;
+  }
+}
+
+.square-2 {
+  border: 4px solid $secondary-colour;
+}
+
+.square-2--absolute {
+  background-color: $tertiary-colour;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &.is-active {
+    transform: translateX(0);
+    animation: party 0.8s ease-in-out alternate infinite;
+  }
+}
+
+.square-3 {
+  border: 4px solid $primary-colour;
+}
+
+.square-3--absolute {
+  background-color: $secondary-colour;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &.is-active {
+    transform: translateX(0);
+    animation: party 0.8s ease-in-out alternate infinite;
+  }
+}
+
+.square-profile {
+  display: none;
+  border: 4px solid $primary-colour;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 350px;
+  z-index: -10;
+
+  @include min-width($medium-break) {
+    display: block;
+  }
+}
+
+.display-text {
+  letter-spacing: 3px;
+}
+
+.image-face {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-face--look {
+  opacity: 0;
+  cursor: default;
+  width: 50px;
+  position: absolute;
+  top: -95px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s;
+
+  &.is-active {
+    opacity: 1;
+    animation: jump 0.3s ease-in-out;
+  }
+
+  @include min-width($small-break) {
+    top: -55px;
+  }
+}
+
+.look-link {
+  color: $tertiary-colour;
+  font-family: $primary-font;
+  font-weight: 700;
+  border-bottom: 4px solid $tertiary-colour;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $primary-colour;
+    border-bottom: 4px solid $tertiary-colour;
+  }
+
+  &.is-active {
+    color: $primary-colour;
+    border-bottom: 4px solid white;
+    cursor: default;
+  }
+}
+
+
+// Absolute shapes
+
+.absolute-shapes {
+  display: none;
+  position: absolute;
+
+  &.is-party-mode {
+    animation: spin 0.5s linear infinite;
+  }
+
+  @include min-width($medium-break) {
+    display: block;
+  }
+}
+
+.circle-absolute-1 {
+  top: 50px;
+  left: 100px;
+  transform: rotate(20deg);
+}
+
+.circle-absolute-2 {
+  bottom: 100px;
+  right: 100px;
+  transform: rotate(170deg);
+}
+
+.circle-absolute-3 {
+  top: 100px;
+  right: 50px;
+  transform: rotate(60deg);
+}
+
+.triangle-absolute-1 {
+  top: 200px;
+  right: 250px;
+  transform: rotate(100deg);
+}
+
+.triangle-absolute-2 {
+  bottom: 50px;
+  left: 100px;
+  transform: rotate(30deg);
+}
+
+.triangle-absolute-3 {
+  top: 200px;
+  left: 200px;
+  transform: rotate(150deg);
+}
+
+.triangle-absolute-4 {
+  top: 30px;
+  right: 200px;
+}
+
+.triangle-absolute-5 {
+  top: 250px;
+  left: 50px;
+  transform: rotate(40deg);
+}
+
+.triangle-absolute-6 {
+  bottom: 80px;
+  left: 400px;
+}
+
+.party-mode-link {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.1s;
+
+  &:hover,
+  &:focus  {
+    color: $primary-colour;
+  }
+
+  &.is-active {
+    color: $primary-colour;
+    cursor: default;
+  }
+
+  @include min-width(767px) {
+    display: block;
+  }
+}
+
+.party-mode-off-link {
+  opacity: 0;
+  cursor: default;
+  font-size: 20px;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $primary-colour;
+  }
+
+   &.is-active {
+     opacity: 1;
+     cursor: pointer;
+   }
+}
+
+.profile-absolute-shape--1 {
+  transform: rotate(100deg);
+  bottom: 100px;
+  left: 20px;
+}
+
+.profile-absolute-shape--2 {
+  bottom: 100px;
+  right: 30px;
+  transform: rotate(60deg);
+}
+
+.profile-absolute-shape--3 {
+  top: 50px;
+  left: 30px;
+}
+
+.profile-absolute-shape--4 {
+  transform: rotate(100deg);
+  top: 100px;
+  right: 30px;
+}
+
+.profile-absolute-shape--5 {
+  transform: rotate(30deg);
+  bottom: 25px;
+  right: 100px;
+}
+
+.profile-absolute-shape--6 {
+  transform: rotate(10deg);
+  bottom: 25px;
+  left: 80px;
+}
+
+.mp-link {
+  color: $tertiary-colour;
+  transition: all 0.3s;
+
+  &:hover,
+  &:focus {
+    color: $primary-colour;
+    text-decoration: none;
+  }
+}
