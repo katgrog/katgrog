@@ -31,6 +31,19 @@ $(document).on('ready', function(){
     $('.square-1--absolute').removeClass('is-active');
     $('.square-2--absolute').removeClass('is-active');
     $('.square-3--absolute').removeClass('is-active');
+  });
 
+  // mp link  hover
+
+  $('.mp-link-wrapper').on("mouseenter", function(){
+    $('.mp-logo').addClass('is-active'); }).on('mouseleave', function(){
+    $('.mp-logo').removeClass('is-active');
+  });
+
+  // footer link hover
+
+  $('.footer-link').on("mouseenter", function(){
+    $(this).find('.footer-link__underline').addClass('is-active'); }).on('mouseleave', function(){
+    $(this).find('.footer-link__underline').removeClass('is-active');
   });
 });
