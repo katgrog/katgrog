@@ -5,14 +5,10 @@
   // Header styling
 // --------------------------------------- */
 
-.header-text {
-  padding: 50px;
-
-  @include min-width($medium-break) {
-    padding: 50px 0 150px 0;
-  }
+.header {
+  background-color: $background-colour;
 }
 
-h1 {
-
+.page-border--top {
+  border: 10px solid $primary-font-colour;
 }

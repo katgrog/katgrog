@@ -8,6 +8,7 @@
 body {
   background: white;
   font-family: $primary-font;
+  color: $primary-font-colour;
 }
 
 .section {
@@ -16,40 +17,45 @@ body {
 
 // Padding
 
-.u-padding-b-100 {
+.u-padding--b-100 {
   padding-bottom: 50px;
 }
 
-.u-padding-y-50 {
+.u-padding--y-50 {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-.u-padding-y-200 {
+.u-padding--y-100 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.u-padding--y-200 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.u-padding-x-100 {
+.u-padding--x-100 {
   padding-left: 50px;
   padding-right: 50px;
 }
 
 // Margin
 
-.u-margin-y-100 {
+.u-margin--y-100 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.u-margin-t-50 {
+.u-margin--t-50 {
   margin-top: 25px;
 }
 
-.u-margin-t-100 {
+.u-margin--t-100 {
   margin-top: 50px;
 }
 
-.u-margin-b-100 {
+.u-margin--b-100 {
   margin-bottom: 50px;
 }
