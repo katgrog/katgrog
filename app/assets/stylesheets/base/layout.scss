@@ -15,6 +15,15 @@ body {
   padding: 50px 0;
 }
 
+hr {
+  border: 0.5px solid $primary-font-colour;
+}
+
+a {
+  font-size: 24px;
+  color: $primary-font-colour;
+}
+
 // Padding
 
 .u-padding--b-100 {
@@ -58,4 +67,12 @@ body {
 
 .u-margin--b-100 {
   margin-bottom: 50px;
+}
+
+.u-margin--l-50 {
+  margin-left: 50px;
+}
+
+.u-margin--l-100 {
+  margin-left: 100px;
 }

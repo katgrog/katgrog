@@ -6,27 +6,5 @@
 // --------------------------------------- */
 
 .footer {
-
-  a {
-    text-decoration: none;
-    display: block;
-    padding: 40px;
-    font-size: 20px;
-    color: white;
-  }
-
-  @include min-width(845px) {
-    a {
-      display: inline-block;
-      padding: 70px 100px;
-    }
-  }
-}
-
-.footer-link__underline {
-  transition: all 0.1s;
-
-  &.is-active {
-    border-bottom: 3px solid;
-  }
+  background: $background-colour;
 }
