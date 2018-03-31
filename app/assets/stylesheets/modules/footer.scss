@@ -7,4 +7,9 @@
 
 .footer {
   background: $background-colour;
+
+  a {
+    display: inline-block;
+    padding: 25px 50px;
+  }
 }

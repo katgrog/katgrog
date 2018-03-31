@@ -6,18 +6,17 @@
 // --------------------------------------- */
 
 .header {
-  background-color: $background-colour;
-}
-
-.page-border--top {
   background-color: $primary-font-colour;
-  padding: 10px 0;
+  color: white;
 }
 
-.page-border--top-decor {
-  color: #ffffff;
-  border-top: 1px solid white;
-  display: block;
-  width: 18px;
-  transform: rotate(45deg);
+.header-link {
+  display: inline-block;
+  padding: 25px 0;
+  color: white;
+}
+
+.waving-hand {
+  animation-name: jump;
+  animation-duration: 1s;
 }

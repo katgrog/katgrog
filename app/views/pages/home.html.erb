@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <div class="page-border--top">
-    <span class="page-border--top-decor"></span>
-    <span class="page-border--top-decor u-margin--l-50"></span>
-    <span class="page-border--top-decor u-margin--l-100"></span>
-  </div>
+  <%= image_tag "page-decor.svg", class: "page-decor" %>
 
-  <header class="header u-padding--y-100">
+  <header class="header u-padding--t-200 u-padding--b-100">
     <div class="container">
       <div class="row clearfix">
         <div class="col-xs-12">
-          <h1 class="u-text--bold">Hello</h1>
-          <h2 class="u-text--bold">It's me, Katie! 👋</h2>
+          <h1>Hello</h1>
+          <h2>It's me, Katie! <span class="waving-hand">👋</span></h2>
 
-          <a href="https://www.google.com">
-            <div class="u-text--center u-margin--t-50">
-              <p>I reckon you should click down here</p>
-              <span>></span>
-            </div>
+          <a href="#" id="good-dogs-link" class="header-link">
+            <p>Click here to skip to good dogs &#x2193;</p>
           </a>
         </div>
       </div>
@@ -42,9 +35,33 @@
       <div class="row clearfix">
         <div class="col-xs-12">
           <h1>Previous roles</h1>
-          <p>Teaching assistant and junior developer at code school ---> Steer</p>
-          <p>Developer and designer at London based agency ---> makingpretty</p>
-          <p>Product designer ---> CharlieHR (I'm currently here!)</p>
+          <p>Teaching assistant and junior developer at code school ---> <a href="https://twitter.com/teamsteer" target="_blank" rel="noopener noreferrer">Steer</a></p>
+          <p>Developer and designer at London based agency ---> <a href="https://twitter.com/makingpretty" target="_blank" rel="noopener noreferrer">makingpretty</a></p>
+          <p>Product designer ---> <a href="https://www.charliehr.com/about" target="_blank" rel="noopener noreferrer">CharlieHR (I'm currently here!)</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section id="good-dogs" class="section">
+    <div class="container">
+      <div class="row clearfix">
+        <div class="col-xs-12">
+          <h1>Good dogs</h1>
+        </div>
+      </div>
+
+      <div class="row clearfix">
+        <div class="col-xs-12 col-md-4">
+          <%= image_tag "doggo-1.jpg", class: "doggo-img", alt: "Good doggo 1" %>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <%= image_tag "doggo-2.jpg", class: "doggo-img", alt: "Good doggo 1" %>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <%= image_tag "doggo-3.jpg", class: "doggo-img", alt: "Good doggo 1" %>
         </div>
       </div>
     </div>
