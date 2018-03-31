@@ -6,11 +6,9 @@
 // --------------------------------------- */
 
 .footer {
-  background-color: $secondary-colour;
 
   a {
     text-decoration: none;
-    font-family: $title-font;
     display: block;
     padding: 40px;
     font-size: 20px;
@@ -26,10 +24,9 @@
 }
 
 .footer-link__underline {
-  border-bottom: 3px solid $secondary-colour;
   transition: all 0.1s;
 
   &.is-active {
-    border-bottom: 3px solid $white;
+    border-bottom: 3px solid;
   }
 }

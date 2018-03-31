@@ -14,43 +14,6 @@ body {
   padding: 50px 0;
 }
 
-h1, h2, h3 {
-  font-family: $title-font;
-}
-
-h2, h3, p {
-  line-height: 1.5em;
-}
-
-h1 {
-  font-size: 50px;
-  line-height: 2em;
-}
-
-h2 {
-  font-size: 32px;
-  line-height: 0;
-  letter-spacing: 2px;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-p {
-  color: $tertiary-colour;
-  font-size: 24px;
-}
-
-.u-relative {
-  position: relative;
-}
-
-.u-inline-block {
-  display: inline-block;
-}
-
 // Padding
 
 .u-padding-b-100 {
