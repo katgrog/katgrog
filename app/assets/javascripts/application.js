@@ -14,9 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-$("#good-dogs-link").click(function() {
-  $('html, body').animate({
-      scrollTop: $("#good-dogs").offset().top
-  }, 500);
-});
