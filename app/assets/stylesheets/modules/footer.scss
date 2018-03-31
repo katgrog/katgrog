@@ -6,30 +6,10 @@
 // --------------------------------------- */
 
 .footer {
-  background-color: $secondary-colour;
+  background: $secondary-colour;
 
   a {
-    text-decoration: none;
-    font-family: $title-font;
-    display: block;
-    padding: 40px;
-    font-size: 20px;
-    color: white;
-  }
-
-  @include min-width(845px) {
-    a {
-      display: inline-block;
-      padding: 70px 100px;
-    }
-  }
-}
-
-.footer-link__underline {
-  border-bottom: 3px solid $secondary-colour;
-  transition: all 0.1s;
-
-  &.is-active {
-    border-bottom: 3px solid $white;
+    display: inline-block;
+    padding: 25px 50px;
   }
 }
