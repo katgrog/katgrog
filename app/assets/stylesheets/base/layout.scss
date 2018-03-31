@@ -6,9 +6,9 @@
 // --------------------------------------- */
 
 body {
-  background: white;
+  background: #ffffff;
   font-family: $primary-font;
-  color: $primary-font-colour;
+  color: $primary-colour;
 }
 
 .page-decor {
@@ -20,17 +20,13 @@ body {
   padding: 50px 0;
 }
 
-hr {
-  border: 0.5px solid $primary-font-colour;
-}
-
 a {
   font-size: 24px;
-  color: $primary-font-colour;
+  color: $primary-colour;
 }
 
+// Utilities
 // Padding
-
 .u-padding--t-50 {
   padding-top: 25px;
 }
@@ -64,7 +60,6 @@ a {
 }
 
 // Margin
-
 .u-margin--y-100 {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -88,4 +83,21 @@ a {
 
 .u-margin--l-100 {
   margin-left: 100px;
+}
+
+.u-position--absolute {
+  position: absolute;
+}
+
+// Position, display and rotate
+.u-position--relative {
+  position: relative;
+}
+
+.u-display--inline-block {
+  display: inline-block;
+}
+
+.u-rotate--90deg {
+  transform: rotate(90deg);
 }
