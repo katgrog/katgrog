@@ -1,7 +1,5 @@
 $(document).on('ready', function(){
-  $("#good-dogs-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#good-dogs").offset().top
-    }, 500);
+  $(".js-waving-hand").on("click", function(){
+    $(".teehee").toggleClass("show");
   });
 });

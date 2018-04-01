@@ -12,8 +12,13 @@ body {
 }
 
 .page-decor {
+  display: none;
   position: absolute;
   max-width: 100%;
+
+  @media (min-width: $medium-break) {
+    display: block;
+  }
 }
 
 .section {
@@ -71,6 +76,10 @@ a {
 
 .u-margin--t-100 {
   margin-top: 50px;
+}
+
+.u-margin--b-50 {
+  margin-bottom: 25px;
 }
 
 .u-margin--b-100 {
