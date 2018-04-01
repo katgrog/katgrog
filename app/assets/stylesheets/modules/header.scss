@@ -17,5 +17,22 @@
 }
 
 .waving-hand {
+  cursor: pointer;
+  padding: 5px 7px 0 7px;
   animation: spin 0.5s 2;
+}
+
+.waving-hand:hover {
+  outline: 2px solid #426CFF;
+}
+
+.teehee {
+  display: none;
+  margin-top: 10px;
+  padding: 7px;
+  background: #161B39 ;
+
+  &.show {
+    display: block;
+  }
 }
