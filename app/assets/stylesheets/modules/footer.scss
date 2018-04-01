@@ -9,7 +9,11 @@
   background: $secondary-colour;
 
   a {
-    display: inline-block;
+    display: block;
     padding: 25px 50px;
+
+    @media (min-width: $medium-break) {
+      display: inline-block;
+    }
   }
 }
