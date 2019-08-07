@@ -7,18 +7,8 @@
 
 body {
   background: #ffffff;
-  font-family: $primary-font;
-  color: $primary-colour;
-}
-
-.page-decor {
-  display: none;
-  position: absolute;
-  max-width: 100%;
-
-  @media (min-width: $medium-break) {
-    display: block;
-  }
+  font-family: $secondary-font;
+  color: $body-copy-colour;
 }
 
 .section {
@@ -26,6 +16,7 @@ body {
 }
 
 a {
+  font-family: $primary-font;
   font-size: 24px;
   color: $primary-colour;
 }

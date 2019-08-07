@@ -18,12 +18,13 @@
 
 .waving-hand {
   cursor: pointer;
-  padding: 5px 7px 0 7px;
+  padding: 12px 12px 0 12px;
+  border-radius: 100px;
   animation: spin 0.5s 2;
 }
 
 .waving-hand:hover {
-  outline: 2px solid #426CFF;
+  background-color: $secondary-colour;
 }
 
 .teehee {
