@@ -5,11 +5,16 @@
   #Random Styling
 \* --------------------------------------- */
 
+.company-logo {
+  width: 75px;
+  border-radius: 100px;
+}
+
 .doggo-img {
   width: 100%;
-  margin-bottom: 25px;
+  margin: 20px 0 25px 0;
 }
 
 .doggo-img:hover {
-  outline: 2px solid #426CFF;
+  outline: 5px solid #9E68FF;
 }
