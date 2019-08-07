@@ -41,11 +41,15 @@
   background-color: $secondary-colour;
 }
 
+.chloe {
+  width: 200px;
+  border-radius: 100px;
+}
+
 .teehee {
   display: none;
   margin-top: 10px;
   padding: 7px;
-  background: #161B39 ;
 
   &.show {
     display: block;

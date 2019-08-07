@@ -12,6 +12,10 @@
     display: block;
     padding: 25px 50px;
 
+    &:hover {
+      color: #6013EA;
+    }
+
     @media (min-width: $medium-break) {
       display: inline-block;
     }

@@ -5,16 +5,32 @@
   #Random Styling
 \* --------------------------------------- */
 
+.company-details {
+  display: inline-block;
+  width: 400px;
+  padding: 25px 0;
+  border-right: 1px solid #dddddd;  
+}
+
+.company-role {
+  display: inline-block;
+  padding-left: 50px;
+}
+
 .company-logo {
   width: 75px;
   border-radius: 100px;
+  margin-bottom: 15px;
 }
 
 .doggo-img {
   width: 100%;
+  border-radius: 500px;
   margin: 20px 0 25px 0;
+  padding: 10px;
 }
 
 .doggo-img:hover {
-  outline: 5px solid #9E68FF;
+  border-radius: 500px;
+  background: #6013EA;
 }
