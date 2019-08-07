@@ -6,31 +6,50 @@
 // --------------------------------------- */
 
 .header {
-  background-color: $primary-colour;
+  background-color: #6013EA;
   color: white;
+  margin-bottom: 25px;
 }
 
-.header-link {
+// Header link override
+.header a {
   display: inline-block;
-  padding: 25px 0;
+  font-size: 20px;
+  color: white;
+  padding: 12px 16px;
+  background-color: $primary-colour;
+  border-bottom: 5px solid #15144B;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.header a:hover {
+  background-color: #15144B;
+  border-bottom: 5px solid #080722;
   color: white;
 }
 
 .waving-hand {
   cursor: pointer;
-  padding: 5px 7px 0 7px;
+  padding: 12px 12px 0 12px;
+  border-radius: 100px;
   animation: spin 0.5s 2;
+  transition: background-color linear 0.1s;
 }
 
 .waving-hand:hover {
-  outline: 2px solid #426CFF;
+  background-color: $secondary-colour;
+}
+
+.chloe {
+  width: 200px;
+  border-radius: 100px;
 }
 
 .teehee {
   display: none;
   margin-top: 10px;
   padding: 7px;
-  background: #161B39 ;
 
   &.show {
     display: block;
