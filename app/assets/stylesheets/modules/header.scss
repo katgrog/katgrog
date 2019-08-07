@@ -21,6 +21,7 @@
   border-bottom: 5px solid #15144B;
   text-decoration: none;
   border-radius: 15px;
+  transition: all linear 0.1s;
 }
 
 .header a:hover {
@@ -31,14 +32,18 @@
 
 .waving-hand {
   cursor: pointer;
-  padding: 12px 12px 0 12px;
+  padding: 10px 10px 0 10px;
   border-radius: 100px;
   animation: spin 0.5s 2;
   transition: background-color linear 0.1s;
 }
 
 .waving-hand:hover {
-  background-color: $secondary-colour;
+  background-color: none;
+
+  @media (min-width: $medium-break) {
+    background-color: white;
+  }
 }
 
 .chloe {
