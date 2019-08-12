@@ -6,28 +6,31 @@
 // --------------------------------------- */
 
 .header {
-  background-color: #6013EA;
-  color: white;
+  background-color: #99B8DB;
+  color: #000231;
   margin-bottom: 25px;
+
+  h1 {
+    letter-spacing: 2px;
+  }
 }
 
 // Header link override
 .header a {
   display: inline-block;
   font-size: 20px;
-  color: white;
-  padding: 12px 16px;
-  background-color: $primary-colour;
-  border-bottom: 5px solid #15144B;
+  color: #080722;
+  padding: 14px 16px;
+  background-color: #769FE0;
+  border: 3px solid #719ADC;
   text-decoration: none;
   border-radius: 15px;
   transition: all linear 0.1s;
 }
 
 .header a:hover {
-  background-color: #15144B;
-  border-bottom: 5px solid #080722;
-  color: white;
+  background-color: #C4FFF9;
+  border: 3px solid #AFF1EA;
 }
 
 .waving-hand {
