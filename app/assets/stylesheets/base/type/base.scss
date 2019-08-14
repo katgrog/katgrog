@@ -14,19 +14,11 @@ h1 {
   font-family: $primary-font;
   font-size: 72px;
   font-weight: 700;
-  margin: 0;
 }
 
 h2 {
   font-family: $primary-font;
   font-size: 56px;
-}
-
-h3 {
-  font-family: $secondary-font;
-  font-size: 24px;
-  font-weight: 600;
-  font-style: italic;
 }
 
 p {
@@ -35,22 +27,27 @@ p {
 }
 
 a {
+  color: $detail-copy-colour;
   text-decoration: underline;
-}
-
-a:hover {
-  color: #080722;
 }
 
 // Override h1 styling when in a section
 section {
   h1 {
     font-size: 42px;
+    font-weight: 400;
     margin-bottom: 20px;
   }
 
   h2 {
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  p{
+    color: #425C7A;
   }
 }

@@ -9,15 +9,15 @@
   margin-top: 35px;
   
   @media (min-width: $medium-break) {
-    border-right: 1px dashed #99B8DB;  
+    border-right: 1px dashed $primary-colour;  
     display: inline-block;
-    width: 400px;
-    padding: 40px 0;
+    width: 450px;
+    padding-top: 40px;
   }
 }
 
 .company-role {
-  border-bottom: 1px dashed #99B8DB;
+  border-bottom: 1px dashed $primary-colour;
   padding-bottom: 50px;
   
   @media (min-width: $medium-break) {
@@ -29,7 +29,7 @@
 }
 
 .company-logo {
-  width: 75px;
+  width: 50px;
   border-radius: 100px;
   margin-bottom: 15px;
 }
@@ -43,5 +43,5 @@
 
 .doggo-img:hover {
   border-radius: 500px;
-  background: #769FE0;
+  background: #95BDED;
 }

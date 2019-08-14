@@ -6,31 +6,29 @@
 // --------------------------------------- */
 
 .header {
-  background-color: #99B8DB;
-  color: #000231;
+  background-color: #C9D9EC;
+  color: $detail-copy-colour;
   margin-bottom: 25px;
-
-  h1 {
-    letter-spacing: 2px;
-  }
 }
 
 // Header link override
 .header a {
   display: inline-block;
   font-size: 20px;
-  color: #080722;
-  padding: 14px 16px;
-  background-color: #769FE0;
-  border: 3px solid #719ADC;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: $detail-copy-colour;
   text-decoration: none;
+  padding: 14px 16px;
+  background-color: #9AC2F1;
+  border: 3px solid #95BDED;
   border-radius: 15px;
   transition: all linear 0.1s;
 }
 
 .header a:hover {
-  background-color: #C4FFF9;
-  border: 3px solid #AFF1EA;
+  background-color: #4FCEBC;
+  border: 3px solid #46BEAD;
 }
 
 .waving-hand {
