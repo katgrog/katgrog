@@ -6,7 +6,7 @@
 // --------------------------------------- */
 
 .header {
-  background-color: #C9D9EC;
+  background-color: #ECF2F8;
   color: $detail-copy-colour;
   margin-bottom: 25px;
 }
@@ -20,30 +20,31 @@
   color: $detail-copy-colour;
   text-decoration: none;
   padding: 14px 16px;
-  background-color: #9AC2F1;
-  border: 3px solid #95BDED;
+  border: 3px dashed $detail-copy-colour;
   border-radius: 15px;
   transition: all linear 0.1s;
 }
 
 .header a:hover {
   background-color: #4FCEBC;
-  border: 3px solid #46BEAD;
+  border: 3px solid $detail-copy-colour;
 }
 
 .waving-hand {
   cursor: pointer;
-  padding: 10px 10px 0 10px;
+  padding: 14px;
   border-radius: 100px;
   animation: spin 0.5s 2;
-  transition: background-color linear 0.1s;
+  top: 0;
+  transition: top linear 0.1s;
 }
 
 .waving-hand:hover {
-  background-color: none;
+  position: static;
 
   @media (min-width: $medium-break) {
-    background-color: white;
+    position: relative;
+    top: -10px;
   }
 }
 
