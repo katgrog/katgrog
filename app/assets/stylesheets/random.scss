@@ -9,7 +9,7 @@
   margin-top: 35px;
   
   @media (min-width: $medium-break) {
-    border-right: 1px dashed $primary-colour;  
+    border-right: 1px dashed $decoration-colour;  
     display: inline-block;
     width: 450px;
     padding-top: 40px;
@@ -17,7 +17,7 @@
 }
 
 .company-role {
-  border-bottom: 1px dashed $primary-colour;
+  border-bottom: 1px dashed $decoration-colour;
   padding-bottom: 50px;
   
   @media (min-width: $medium-break) {

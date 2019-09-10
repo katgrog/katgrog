@@ -6,15 +6,14 @@
 \* --------------------------------------- */
 
 // Project colour variables
-$primary-colour: #C9D9EC; //Light blue
-$body-copy-colour: #313131; //Grey black
-$detail-copy-colour: #000231; //Dark blue
+$primary-colour: #000231; //Dark blue
+$secondary-colour: #808198; //Grey blue
+$decoration-colour: #C9D9EC; //Light blue
 
 // Font Stacks
 $primary-font: Arial, sans-serif;
-$secondary-font: Arial, sans-serif;
 
-// Responsive breakpoints – 
+// Responsive breakpoints
 $small-break: 480px;
 $medium-break: 768px; //bootstrap sm
 $big-break: 992px;    //bootstrap md
