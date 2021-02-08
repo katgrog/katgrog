@@ -26,7 +26,7 @@ gem 'will_paginate'
 gem 'simple_form', '~> 3.0.0'
 gem 'mini_magick', '~> 4.2.0'
 gem 'aws-sdk', '< 2.0'
-gem 'carrierwave', '~> 0.10.0'
+gem 'carrierwave', '~> 1.3.2'
 
 
 gem 'fog'
